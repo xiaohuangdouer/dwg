@@ -1,1 +1,3 @@
-function drag(){}
+function drag(){
+    console.log(111)
+}
