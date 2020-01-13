@@ -1,3 +1,4 @@
-function drag(){
-    console.log(111)
+function drag(id){
+    var obj=document.getElementById(id);
+    obj.onmousedown=function(){}
 }
