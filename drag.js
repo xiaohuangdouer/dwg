@@ -11,4 +11,9 @@ function drag(id){
             obj.style.top=ev.pageY-disY+'px';
 
     }
+    document.onmouseout=function(){
+        document.onmousemove=document.onmouseup=null;
+    }
+}
+return false;
 }
